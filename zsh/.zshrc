@@ -27,7 +27,7 @@ fi
 
 # Starting on code folder when new a new terminal is open
 export START="/home/chris/code"
-if [ $PWD == $HOME && -d "$START" ]; then
+if [[ $PWD == $HOME && -d "$START" ]]; then
   cd "$START"
 fi
 
