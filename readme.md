@@ -1,14 +1,15 @@
-# My dotfiles for Unix
+# My Dotfiles for Unix
 
 ## Details about the configuration
 
-The main tools used are:
+Main tools:
 
-- [zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
-- [tmux](https://github.com/tmux/tmux/wiki/Installing)
-- [neovim](https://github.com/neovim/neovim)
+- zsh shell, used with [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH) and [pure](https://github.com/sindresorhus/pure) prompt.
+- [tmux](https://github.com/tmux/tmux/wiki/Installing), for managing multiple terminal sessions.
+- [neovim](https://github.com/neovim/neovim) for editing files.
 
 The Neovim configuration, tailored for JavaScript development, is based on [LazyVim](https://www.lazyvim.org/).
+
 Linting and formatting:
 - [standardjs](https://standardjs.com/) for linting and for formatting.
 - [cspell](https://cspell.org/) for spell checking.
