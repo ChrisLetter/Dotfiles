@@ -1,10 +1,8 @@
-# My Dotfiles for Unix
-
 ## Details about the configuration
 
 Main tools:
 
-- zsh shell, used with [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH) and [pure](https://github.com/sindresorhus/pure) prompt.
+- zsh shell, used with [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh) and [pure](https://github.com/sindresorhus/pure) prompt.
 - [tmux](https://github.com/tmux/tmux/wiki/Installing), for managing multiple terminal sessions.
 - [neovim](https://github.com/neovim/neovim) for editing files.
 
@@ -18,7 +16,7 @@ Linting and formatting:
 
 ## Installation
 
-The dotfiles are stored in a separate folder to facilitate easier backup with Git and keeping the configuration organized.
+The dotfiles are not stored in the home directory, but in a separate folder to facilitate easier backup with Git and keeping the configuration organized.
 This means that the files need to be symlinked to the home directory. You can use stow to automate this process.
 
 ```bash
